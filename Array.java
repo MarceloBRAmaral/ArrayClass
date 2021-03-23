@@ -64,4 +64,15 @@ public class Array {
         }
         return indexOfArray;
     }
+
+    //searches and returns the largest number
+    public int max(){
+        int max = items[0];
+        for (int i=0; i<items.length-1; i++){
+            if (items[i+1]>items[i]){
+                max = items[i+1];
+            }
+        }
+        return max;
+    }
 }

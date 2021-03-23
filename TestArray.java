@@ -10,7 +10,7 @@ public class TestArray {
         //if the array is full, it increases the array size and inserts the new value at the end of the array
         num.insert(1);
         num.insert(2);
-        num.insert(3);
+        num.insert(7);
         num.insert(4);
         num.insert(5);
 
@@ -22,6 +22,7 @@ public class TestArray {
         num.print();
 
         //indexOf method prints the array value of a given method
-        System.out.println(num.indexOf(3));
+        System.out.println("The value 5 is in the position:" + num.indexOf(5));
+        System.out.println("The maximum value is:" + num.max());
     }
 }
